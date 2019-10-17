@@ -1,0 +1,135 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0 auto;
+  font-family: Open Sans;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+h1:hover{
+  text-decoration: underline ;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+text-align: center;
+}
+/* Custom design below! */
+
+.container {
+width: 900px;
+margin:0 auto;
+ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0,2);
+
+}
+
+.banner{
+background-image: url("http://2wixx71erohn2ixvfu42jxuw.wpengine.netdna-cdn.com/wp-content/uploads/2016/01/shutterstock_167435168-1000x641.jpg");
+background-size:cover;
+background-position:center;
+padding:200px 0;
+margin:0 auto;
+
+
+}
+
+.banner h1{
+color:#ffafb0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0,2);
+
+}
+
+.banner p {
+color:grey;
+opacity:0.5;
+font-size:20px;
+text-shadow: 100px 100px 20px rgba(0, 0, 0, 0,2);
+
+}
+
+.btn-primary{
+  display: inline-block;
+  background-color:#1EDD88;
+  padding:16px 36px;
+  border-radius:50px;
+  color:white;
+  margin:0 auto;
+}
+#btn-primary:hover {
+font-weight:lighter;
+
+}
+
+.btn-secondary {
+  border: 1px solid #1EDD88;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: #1EDD88;
+}
+
+.card img{
+  height: 100px;
+
+}
+
+.card:hover{
+font-weight:lighter;
+
+}
+
+.card p {
+  opacity: 0.5;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #1EDD88;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.footer .fas {
+  color: #BF0F12;
+}
+
+
+
